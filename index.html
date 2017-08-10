@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>niit times</title>
@@ -13,72 +14,87 @@
 
 </head>
 <body background="images/home.jpg">
-   <div class="container-fluid" style="background-color:gray;">
-       <div class="row" style="background-color:#1e397f;">
-          <div class="col-lg-4"><img src="images/logo4.png" alt ="Logo" width="150" style="margin-top: 20px; margin-bottom: 20px;" ></div>
-          <div class="col-lg-8"><h1  class="bounce" style="color:white;">THE NIIT TIMES</h1> 
-            <p style="color:white;font-size:20px;">There is no better way for NIITians to stay updated on their country's current affairs.</p>
-            <form class="form-inline">
-                <input type="text" id="email" placeholder="Enter your email id" class="form-control" style="width:500px; margin-bottom:">
-                <button type="button" class="btn" id="subscribe">Subscribe</button>
-            </form>
-        </div>
+  <!-- code for top header-->
+  <div class="container-fluid">
+   <div class="row" style="background-color:#1e397f;">
+    <div class="col-lg-4"><img src="images/logo4.png" class="animated bounce logo" alt ="Logo" width="150"></div>
+    <div class="col-lg-8"><h1  class="animated bounceinleft" style="color:white;">THE NIIT TIMES</h1> 
+      <p  class="header-para ">There is no better way for NIITians to stay updated on their country's current affairs.</p>
+      <form class="form-inline">
+        <input type="text" id="email" placeholder="Enter your email id" class="form-control">
+        <button type="button" class="btn" id="subscribe">Subscribe</button>
+      </form>
+    </div>
 
-    </div> 
+  </div> 
 
 
 </div>
-<nav class="navbar navbar-inverse" >
-  <ul class="nav navbar-nav">
-    <li class="active"><a href="#">Home</a></li>
-    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li><a href="#">International News</a></li>
-    <li><a href="#">National News</a></li>
-    <li><a href="#">Political News</a></li>
-    <li><a href="#">Sports News</a></li>
-    <li><a href="#">Controversial News</a></li>
-    <li><a href="#">Others</a></li>
-    </li>
-</ul>
-    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Videos<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-<li><a href="#">International Videos</a></li>
-    <li><a href="#">National Videos</a></li>
-    <li><a href="#">Political Videos</a></li>
-    <li><a href="#">Movies and Music</a></li>
-     <li><a href="#"></a></li>
-    </ul>
-    </li>
-    <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown" >Pages<span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="#">Fun and Fun page</a></li>
-    <li><a href="#">Education and Gk page</a></li>
-    <li><a href="#">Sports and Gym page</a></li>
-    <li><a href="#">Cooking and Kitchen Page</a></li>
-    </ul>
-    </li>
-    <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown" >Events<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-<li><a href="#">Fun Events</a></li>
-    <li><a href="#">Educational Events</a></li>
-    <li><a href="#">Sports Events</a></li>
-    <li><a href="#">Cooking Events</a></li>
-    <li><a href="#">Festive Events</a></li>
-    </ul>
-    </li>
+<!-- code for navigation bar-->
+<nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
 
-    <li><a href="#">Advertisement</a></li>
-    <li><a href="#">Contact Us</a></li>
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">International News</a></li>
+            <li><a href="#">National News</a></li>
+            <li><a href="#">Political News</a></li>
+            <li><a href="#">Sports News</a></li>
+            <li><a href="#">Controversial News</a></li>
+            <li><a href="#">Others</a></li>
+          </li>
+        </ul>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Videos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">International Videos</a></li>
+            <li><a href="#">National Videos</a></li>
+            <li><a href="#">Political Videos</a></li>
+            <li><a href="#">Movies and Music</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown" >Pages<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Fun and Fun page</a></li>
+            <li><a href="#">Education and Gk page</a></li>
+            <li><a href="#">Sports and Gym page</a></li>
+            <li><a href="#">Cooking and Kitchen Page</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown" >Events<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Fun Events</a></li>
+            <li><a href="#">Educational Events</a></li>
+            <li><a href="#">Sports Events</a></li>
+            <li><a href="#">Cooking Events</a></li>
+            <li><a href="#">Festive Events</a></li>
+          </ul>
+        </li>
 
-  </ul>
+        <li><a href="#">Advertisement</a></li>
+        <li><a href="#">Contact Us</a></li>
 
-  <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
-<div class="container">
+<!-- code for carousal-->
+<div class="container-fluid">
   <h2>TOP STORIES</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel" >
     <!-- Indicators -->
@@ -94,97 +110,98 @@
       <div class="item active">
         <img src="images/basket ball.jpeg"  alt="basketball" style="width:100%;height:400px;">
         <div class="carousel-caption">
-          <h3 style="font-size:24px">SPORTS</h3>
-          <p style="font-size:20px;"">Youth National Basketball Championship</p>
- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1" style="background-color:transparent;border: 1px solid white;">Read More</button >
-  <div id="demo1" class="collapse" style="font-size:18px;">
-   HYDERABAD: A basketball feast is on the cards from Saturday when the 34th Youth National Basketball Championship for boys and girls kicks off at the GMC Balayogi Indoor Stadium, Gachibowli, on July 1.
+          <h3 class="read-more-heading">SPORTS</h3>
+          <p style="font-size:20px;">Youth National Basketball Championship</p>
+          <button type="button" class="btn btn-info" id="read1" data-toggle="collapse" data-target="#demo1">Read More</button >
+            <div id="demo1" class="collapse read-more-text">
+             HYDERABAD: A basketball feast is on the cards from Saturday when the 34th Youth National Basketball Championship for boys and girls kicks off at the GMC Balayogi Indoor Stadium, Gachibowli, on July 1.Fifty one teams from 26 states will vie for honours in the championship which will be played on the two wooden courts laid out at the Indoor stadium and a couple of matches will be held at the IIIT Hyderabad campus.A total of 85 league matches and 52 knock-out games will be held in the tournament, which will end on July 8. The matches will commence at 7 a.m. daily.
+           </div>
+         </div>
+       </div>
 
-Fifty one teams from 26 states will vie for honours in the championship which will be played on the two wooden courts laid out at the Indoor stadium and a couple of matches will be held at the IIIT Hyderabad campus.
-
-A total of 85 league matches and 52 knock-out games will be held in the tournament, which will end on July 8. The matches will commence at 7 a.m. daily. 
-  </div>
-        </div>
-      </div>
-
-      <div class="item">
+       <div class="item">
         <img src="images/Modi.jpg" alt="modi" style="width:100%;height:400px;">
         <div class="carousel-caption">
-          <h3 style="font-size:24px">Raksha Bandhan Update</h3>
-          <p style="font-size:20px;"">That is how Prime Minister celebrated  Rakshabandhan</p>
-           <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2" style="background-color:transparent;border: 1px solid white;">Read More</button >
-  <div id="demo2" class="collapse" style="font-size:18px;">
-   Prime Minister Narendra Modi on Monday greeted the nation on the occasion of Raksha Bandhan. “On the auspicious occasion of Raksha Bandhan, congratulations to the nation. Greetings on Raksha Bandhan,” he said on Twitter early in the day. Modi also celebrated the festival with the widows from Vrindavan who came to Delhi to tie hand-made rakhis on his wrist. The PM also met schoolchildren at his office to celebrate Raksha Bandhan.
+          <h3 class="read-more-heading">Raksha Bandhan Update</h3>
+          <p style="font-size:20px;">That is how Prime Minister celebrated  Rakshabandhan</p>
+          <button type="button" class="btn btn-info " id ="read2" data-toggle="collapse" data-target="#demo2">Read More</button >
+            <div id="demo2" class="collapse read-more-text">
+             Prime Minister Narendra Modi on Monday greeted the nation on the occasion of Raksha Bandhan. “On the auspicious occasion of Raksha Bandhan, congratulations to the nation. Greetings on Raksha Bandhan,” he said on Twitter early in the day. Modi also celebrated the festival with the widows from Vrindavan who came to Delhi to tie hand-made rakhis on his wrist. The PM also met schoolchildren at his office to celebrate Raksha Bandhan.
 
-  </div>
-        </div>
-      </div>
+           </div>
+         </div>
+       </div>
 
-    
-      <div class="item">
+
+       <div class="item">
         <img src="images/education.jpg" alt="education" style="width:100%;height:400px;">
         <div class="carousel-caption">
-          <h3 style="font-size:24px">Education</h3>
+          <h3 class="read-more-heading">Education</h3>
           <p style="font-size:20px;">Education For All!</p>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="background-color:transparent;border: 1px solid white;">Read More</button >
-  <div id="demo" class="collapse" style="font-size:18px;">
-    Education arguably plays a large role in each individual’s life. Regardless of how long one chooses to study, a significant part of one's life will be spent sitting at a desk, listening to a teacher talking about a given subject while doodling away on a whiteboard. Life-long friendships will be formed in the classroom, and some people might even meet the one who later will become a spouse. 
-  </div>
+          <button type="button" class="btn btn-info" id="read3" data-toggle="collapse" data-target="#demo">Read More</button >
+            <div id="demo" class="collapse read-more-text">
+              Education arguably plays a large role in each individual’s life. Regardless of how long one chooses to study, a significant part of one's life will be spent sitting at a desk, listening to a teacher talking about a given subject while doodling away on a whiteboard. Life-long friendships will be formed in the classroom, and some people might even meet the one who later will become a spouse. 
+            </div>
+          </div>
         </div>
+
       </div>
-  
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>
-
-<div class="container-fluid" style="margin-top:100px;">
-<div class="row" style="height:500px;">
-<div class="col-lg-4">
-<div style="background-color:blue; height:50px">
-<h3 class="option"> LATEST NEWS</h3>
-</div>
- <div class="thumbnail">
-        <a href="images/SHARIF.jpg" target="_blank">
-          <img src="images/SHARIF.jpg" alt="sharif" width="400" height="600">
+  <!--  3 column division-->
+  <div class="container-fluid" style="margin-top:100px;">
+    <div class="row">
+      <div class="col-lg-4">
+        <div>
+          <h3 class="option"> Latest News</h3>
+        </div>
+        <div class="thumbnail columns">
+         <h2>International News</h2>
+         <a href="images/SHARIF.jpg" target="_blank">
+          <img src="images/SHARIF.jpg" alt="sharif">
           <div class="caption">
             <p>Nawaz Sharif’s wife or daughter may contest polls</p>
           </div>
         </a>
       </div>
-      <div class="thumbnail">
+      <div class="thumbnail columns">
+        <h2>Bollywood News</h2>
         <a href="images/kangana.jpg" target="_blank">
-          <img src="images/kangana.jpg" alt="kangna ranout" width="400" height="600">
+          <img src="images/kangana.jpg" alt="kangna ranout">
           <div class="caption">
             <p>Kangana Ranaut's Name Was Suggested For Writing Credits By Simran Writer, Claims Actress</p>
           </div>
         </a>
       </div>
-      <div class="thumbnail">
+      <div class="thumbnail columns">
+        <h2>Sports News</h2>
         <a href="images/cricket2.jpg" target="_blank">
-          <img src="images/cricket2.jpg" alt="rabindra jadeja" width="400" height="600">
+          <img src="images/cricket2.jpg" alt="rabindra jadeja">
           <div class="caption">
             <p>Ravindra Jadeja spends time with Ravi Shastri, team India enjoys off day</p>
           </div>
         </a>
       </div>
-</div>
-<div class="col-lg-4" style="background-color:green;height:200px;">
-  <div style="background-color:blue; height:50px">
-<h3 class="option">Statistical Analysis</h3>
-</div>
-<div class="thumbnail">
+    </div>
+    <!-- stattistical analysis-->
+    <div class="col-lg-4">
+      <div>
+        <h3 class="option">Statistical Analysis</h3>
+      </div>
+      <div class="thumbnail columns">
+        <h2>US Death Rate</h2>
         <a href="images/gun-deaths.jpg" target="_blank">
-          <img src="images/gun-deaths.jpg" alt="gun-deaths" width="600" height="400">
+          <img src="images/gun-deaths.jpg" alt="gun-deaths">
           <div class="caption">
             <p>Sucides,account for 3 in 5 deaths in U.S.
               <br>
@@ -193,32 +210,75 @@ A total of 85 league matches and 52 knock-out games will be held in the tourname
           </div>
         </a>
       </div>
-      <div class="thumbnail">
+      <div class="thumbnail columns">
+        <h2>Social Site Usage</h2>
         <a href="images/statistics-graph.png" target="_blank">
-          <img src="images/statistics-graph.png" alt="statistics" width="600" height="400">
+          <img src="images/statistics-graph.png" alt="statistics">
           <div class="caption">
            <p>
             Three quarters of facebook users and half of instagram user usesite daily.
-           </p>
-          </div>
-        </a>
-      </div>
-<div class="thumbnail">
-       <a href="images/india.png" target="_blank">
-          <img src="images/india.png" alt="india" width="600" height="400">
-          <div class="caption">
-            <p>India's performance across 12 pillars of competetiveness
-            </p>
-          </div>
-        </a>
-      </div>
-</div>
-<div class="col-lg-4" style="background-color:gray;height:200px;">
-<h3 class="option">Popular Videos</h3>
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="thumbnail columns">
+      <h2>India's Performance</h2>
+      <a href="images/india.png" target="_blank">
+        <img src="images/india.png" alt="india">
+        <div class="caption">
+          <p>India's performance across 12 pillars of competetiveness
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- popular videos-->
+  <div class="col-lg-4">
+    <h3 class="option">Popular Videos</h3>
+    <div class="thumbnail columns">
+      <h2>Sports Videos</h2>
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/00W0_HzwHSc"></iframe>
 
+      </div>
+      <p>Session 3 Highlights - Sri Lanka vs India - 1st Test - Day 4 - 29th July, 2017</p>
+    </div>
+    <div class="thumbnail columns">
+      <h2>New launch</h2>
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bPWkjdwQVZ4"></iframe>
+      </div>
+      <p>TOP 10 Upcoming Smartphones 2017</p>
+    </div>
+    <div class="thumbnail columns">
+      <h2>Latest Concerts</h2>
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xIGINK1D2nY"></iframe>
+      </div>
+      <p>Shreya Ghoshal Vs Arijit Singh - Excellent Concert Latest Songs & Old Songs</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+<!--pager for navigation-->
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="html/second page.html">Next</a></li>
+</ul> 
+<!-- footer--> 
+<footer>
+ <div class="footer-class">
+  <center>
+    <a href="https://twitter.com/login" ><img src="images/Twitter.png" class="icons"></a>
+    <a href="https://www.facebook.com/login"><img src="images/fb.png" class="icons"></a>
+    <a href="https://www.instagram.com/accounts/login"><img src="images/Instagram.png"  class="icons"></a>
+    <br><br>
+    <a href="#" class="footer-link">www.niit-tech-times.com</a>
+    <br>
+    <br>
+    <a href="#" class="footer-link">www.niit-tech.com</a>
+    <p class="footer-para">&copy All rights are reserved</p></center>
+  </div>
+</footer>
 
 </body>
 </html>

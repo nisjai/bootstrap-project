@@ -2,3 +2,119 @@
 {
 	background-color: #fcd84e;
 }
+.footer-class
+{
+	
+	margin-top:5px;
+	width:100%;
+	
+}
+#email
+{
+	 style:width:60%;
+}
+footer 
+{ 
+   clear:both;
+   bottom:0;
+   width:100%;
+   
+   background-color:#1e397f;
+
+}
+.thumbnail.columns
+{
+	background-color: transparent;
+	width:80%;
+	height:70%;
+	border:1px solid transparent;
+}
+.footer-link
+{
+	color: white;
+	font-size:14px;
+}
+.footer-link:hover
+{
+	font-size:20px;
+	color:#fcd84e;
+}
+.icons
+{
+	height:40px;
+	width:40px;
+	margin-right:10px;
+}
+.icons:hover
+{
+	height:60px;
+	width:60px;
+}
+.affix
+{
+	width:100%;
+}
+.jumbo-image
+{
+width:100%;
+}
+.jumbo
+{
+	width:100%;
+	background-image:url("../images/home.jpg") no-repeat;
+}
+#govimage
+{
+	width:70%;
+	height: 40%;
+}
+.govtext
+{
+	font-size:18px;
+	color:gray;
+}
+.logo
+{
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+.header-para
+{
+color:white;
+font-size:20px;
+}
+.carousal-image
+{
+	width:100%;
+	height:400px;
+}
+#read1,#read2,#read3
+{
+background-color:transparent;
+border: 1px solid white;
+}
+.collapse .para-font
+{
+
+}
+@media only screen and (max-width:500px)
+{
+	#subscribe
+	{
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+}
+.footer-para
+{
+	padding-bottom: 2px;
+	 color:gray;
+}
+.read-more-text
+{
+	font-size:18px;
+}
+.read-more-heading
+{
+	font-size:24px;
+}
